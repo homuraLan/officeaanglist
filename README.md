@@ -26,5 +26,12 @@ AriaNg: https://example.com/AriaNg
 aria2: https://example.com/aria2  
 AriaNg配置：https://example.com/aria2/jsonrpc  
 AList相同  
+虽然日志会输出AList密码，但未必能看到
+获取AList密码：  
+```   
+sudo docker exec -it officeaanglist bash
+/var/www/app/alist admin
+```   
       
 已知在没有证书的情况下，无法使用，暂不准备解决  
+
