@@ -36,3 +36,4 @@ sudo docker exec -it officeaanglist bash
       
 已知在没有证书，且不准备外部反代的情况下，无法使用，暂不准备解决  
 
+![image](https://github.com/Sincejunly/officeaanglist/assets/96775034/372a7c73-ad84-4b00-aa6a-82841a7a2443)
