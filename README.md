@@ -7,7 +7,7 @@ ds:docservice: stopped
 ds:docservice: started  
 ds:converter: stopped  
 ds:converter: started  
- * Reloading nginx configuration nginx  
+* Reloading nginx configuration nginx  
    ...done.  
 出现以上内容代表成功，   
 然后访问，  
