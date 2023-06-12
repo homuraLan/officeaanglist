@@ -15,7 +15,11 @@ ds:converter: started
 * Reloading nginx configuration nginx  
    ...done.  
 ```  
-出现以上内容代表成功，   
+出现以上内容代表成功，如果提示失败可以执行  
+```   
+sudo docker restart officeaanglist
+```   
+删除映射目录app中的文件然后重启可以对容器达到重置效果，首次启动可能会失败重启一次就好了  
 然后访问，  
 AList: http://example.com/AList  
 AriaNg: http://example.com/AriaNg  
