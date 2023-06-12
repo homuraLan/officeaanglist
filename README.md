@@ -1,5 +1,6 @@
 # officeaanglist
 onlyoffice+aria2+AriaNg+AList  
+可以在AList获得对onlyoffice的支持，含用户权限  
 下载docker-compose.yml  
 更改其中的数据库密码，路径等等，   
 执行  
