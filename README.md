@@ -21,10 +21,10 @@ sudo docker restart officeaanglist
 ```   
 删除映射目录app中的文件然后重启可以对容器达到重置效果，首次启动可能会失败重启一次就好了  
 然后访问，  
-AList: http://example.com/AList  
-AriaNg: http://example.com/AriaNg  
-aria2: http://example.com/aria2  
-AriaNg配置：http://example.com/aria2/jsonrpc  
+AList: https://example.com/AList  
+AriaNg: https://example.com/AriaNg  
+aria2: https://example.com/aria2  
+AriaNg配置：https://example.com/aria2/jsonrpc  
 AList相同  
       
 已知在没有证书的情况下，无法使用，暂不准备解决  
