@@ -25,5 +25,6 @@ AList: http://example.com/AList
 AriaNg: http://example.com/AriaNg  
 aria2: http://example.com/aria2  
 AriaNg配置：http://example.com/aria2/jsonrpc  
-AList相同
-          
+AList相同  
+      
+已知在没有证书的情况下，无法使用，暂不准备解决  
