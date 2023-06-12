@@ -10,7 +10,7 @@ services:
       MYSQL_USER: officeaanglist
       MYSQL_PASSWORD: 123456
     volumes:
-      - /volume1/docker/onlyoffice/db:/var/lib/mysql
+      - /path/to/onlyoffice/db:/var/lib/mysql
     networks:
       - officeaanglist
 
@@ -37,8 +37,8 @@ services:
       - "6881:6881/tcp"
       - "6881:6881/udp"
     volumes:
-      - "/volume1/docker/qbittorrent/config:/config"
-      - "/volume1/Download/qbittorrent/downloads:/downloads"
+      - "/path/to/qbittorrent/config:/config"
+      - "/path/to/Download/qbittorrent:/downloads"
     networks:
       - officeaanglist
 
@@ -78,6 +78,7 @@ services:
     volumes:
       - /path/to/officeaanglist/logs:/var/log/onlyoffice
       - /path/to/officeaanglist/app:/var/www/app:rw
+      - /path/to/officeaanglist/aria2:/var/www/app/aria2
       - /path/to/AList:/AList
       - /path/to/officeaanglist/lib:/var/lib/onlyoffice
       - /path/to/officeaanglist/db:/var/lib/postgresql
