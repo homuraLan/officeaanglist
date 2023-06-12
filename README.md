@@ -2,6 +2,10 @@
 onlyoffice+aria2+AriaNg+AList  
 下载docker-compose.yml  
 更改其中的数据库密码，路径等等，   
+执行  
+```   
+sudo docker-compsoe up -d
+```   
 启动后要等待很长时间，  
 ```   
 ds:docservice: stopped  
