@@ -83,7 +83,7 @@ services:
       - /path/to/officeaanglist/lib:/var/lib/onlyoffice
       - /path/to/officeaanglist/db:/var/lib/postgresql
       - /path/to/officeaanglist/nginx-conf:/etc/nginx/conf.d
-      #- /volume1/docker/onlyoffice/ssl:/ssl
+      #- /path/to/onlyoffice/ssl:/ssl
     networks:
       - officeaanglist
       
