@@ -33,5 +33,5 @@ sudo docker exec -it officeaanglist bash
 /var/www/app/alist admin
 ```   
       
-已知在没有证书的情况下，无法使用，暂不准备解决  
+已知在没有证书，且不准备外部反代的情况下，无法使用，暂不准备解决  
 
