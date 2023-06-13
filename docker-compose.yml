@@ -77,12 +77,10 @@ services:
 
     volumes:
       - /path/to/officeaanglist/logs:/var/log/onlyoffice
-      - /path/to/officeaanglist/app:/var/www/app:rw
       - /path/to/officeaanglist/aria2:/var/www/app/aria2
       - /path/to/AList:/AList
       - /path/to/officeaanglist/lib:/var/lib/onlyoffice
       - /path/to/officeaanglist/db:/var/lib/postgresql
-      - /path/to/officeaanglist/nginx-conf:/etc/nginx/conf.d
       #- /path/to/onlyoffice/ssl:/ssl
     networks:
       - officeaanglist
