@@ -25,7 +25,7 @@ sudo docker restart officeaanglist
 AList: https://example.com/AList  
 AriaNg: https://example.com/AriaNg  
 aria2: https://example.com/aria2  
-AriaNg配置：https://example.com/aria2/jsonrpc  
+AriaNg配置：https://example.com/aria2/jsonrpc  秘钥：QQ943384135
 AList相同  
 虽然日志会输出AList密码，但未必能看到
 获取AList密码：  
