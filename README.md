@@ -26,7 +26,7 @@ aria2: https://example.com/aria2
 Edier：https://example.com/viewer  
 AriaNg配置：https://example.com/aria2/jsonrpc  秘钥：QQ943384135
 AList相同  
-AList账号，
+AList,Editer账号，通常情况下Editer会和AList同步  
 账号：admin
 密码：admin
 ```   
