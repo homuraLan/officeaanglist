@@ -5,7 +5,7 @@ onlyoffice+aria2+AriaNg+AList
 更改其中的数据库密码，路径等等，   
 执行  
 ```
-touch officeaanglist
+touch /path/to/officeaanglist/redis/redis.conf
 sudo docker-compsoe up -d
 ```   
 启动后要等待很长时间，  
