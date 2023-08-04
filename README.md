@@ -21,11 +21,12 @@ ds:converter: started
 ```   
 sudo docker restart officeaanglist
 ```   
-删除映射目录app中的文件然后重启可以对容器达到重置效果，首次启动可能会失败重启一次就好了  
+删除映射目录app中的文件，以及数据库目录然后可以达到对容器重置的效果。
 然后访问，  
 AList: https://example.com/AList  
 AriaNg: https://example.com/AriaNg  
 aria2: https://example.com/aria2  
+Edier：https://example.com/viewer
 AriaNg配置：https://example.com/aria2/jsonrpc  秘钥：QQ943384135
 AList相同  
 AList账号，
