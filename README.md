@@ -37,5 +37,40 @@ AList，Editer账号，通常情况下Editer会和AList同步
 ![image](https://github.com/alist-org/alist/assets/96775034/30eb1b28-bd80-41ca-965b-9fff6e37cfe3)  
 # TODO  
 - [] onlyoffice多人历史标注支持  
-- [] hexo博客支持    
+- [] hexo博客支持  
+  <style>
+  .custom-checkbox input[type="checkbox"] {
+    display: none;
+  }
+
+  .custom-checkbox label {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+
+  .custom-checkbox input[type="checkbox"]:checked + label {
+    background-color: #007bff; /* Change color when checked */
+  }
+</style>
+
+<div class="custom-checkbox">
+  <input type="checkbox" id="checkbox1">
+  <label for="checkbox1"></label>
+  Checkbox 1
+</div>
+
+<div class="custom-checkbox">
+  <input type="checkbox" id="checkbox2">
+  <label for="checkbox2"></label>
+  Checkbox 2
+</div>
+
+
+
+
 
