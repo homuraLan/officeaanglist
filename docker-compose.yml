@@ -11,7 +11,7 @@ services:
       MYSQL_USER: officeaanglist
       MYSQL_PASSWORD: 123456789
     volumes:
-      - /volume1/docker/officeaanglist/db:/var/lib/mysql
+      - /path/to/officeaanglist/db:/var/lib/mysql
     networks:
       - officeaanglist
 
