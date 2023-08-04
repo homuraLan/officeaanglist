@@ -26,7 +26,9 @@ aria2: https://example.com/aria2
 Edier：https://example.com/viewer  
 AriaNg配置：https://example.com/aria2/jsonrpc  秘钥：QQ943384135
 AList相同  
-AList，Editer账号，通常情况下Editer会和AList同步  
+AList，Editer账号，通常情况下Editer会和AList同步 
+注：AList，Editer账号本质上没有关联，只是有一定同步关系。
+删除AList账号或者Editer账号不会删除对方的账号。  
 账号：admin
 密码：admin  
 对于AList注册的用户，含有上传文件权限的用户可以访问Editer编辑功能，只启用的用户可以访问Editer但不能编辑  
