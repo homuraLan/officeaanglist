@@ -4,7 +4,8 @@ onlyoffice+aria2+AriaNg+AList
 下载docker-compose.yml  
 更改其中的数据库密码，路径等等，   
 执行  
-```   
+```
+touch officeaanglist
 sudo docker-compsoe up -d
 ```   
 启动后要等待很长时间，  
@@ -27,14 +28,12 @@ AriaNg: https://example.com/AriaNg
 aria2: https://example.com/aria2  
 AriaNg配置：https://example.com/aria2/jsonrpc  秘钥：QQ943384135
 AList相同  
-虽然日志会输出AList密码，但未必能看到
-获取AList密码：  
+AList账号，
+账号：admin
+密码：admin
 ```   
 sudo docker exec -it officeaanglist bash
 /var/www/app/alist admin
 ```   
-      
-已知在没有证书，且不准备外部反代的情况下，无法使用，暂不准备解决  
-
-![image](https://github.com/Sincejunly/officeaanglist/assets/96775034/372a7c73-ad84-4b00-aa6a-82841a7a2443)
+编写了外部alist逻辑，暂未测试
 ![image](https://github.com/alist-org/alist/assets/96775034/30eb1b28-bd80-41ca-965b-9fff6e37cfe3)
