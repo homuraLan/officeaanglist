@@ -33,8 +33,9 @@ AList，Editer账号，通常情况下Editer会和AList同步
 密码：admin  
 对于AList注册的用户，含有上传文件权限的用户可以访问Editer编辑功能，只启用的用户可以访问Editer但不能编辑  
 对于Editer注册的用户，自动注册AList未启用的账户，需要管理员手动开启用户
+编写了外部alist逻辑，暂未测试  
+![image](https://github.com/alist-org/alist/assets/96775034/30eb1b28-bd80-41ca-965b-9fff6e37cfe3)  
 # TODO  
 - [] onlyoffice多人历史标注支持  
 - [] hexo博客支持    
-编写了外部alist逻辑，暂未测试  
-![image](https://github.com/alist-org/alist/assets/96775034/30eb1b28-bd80-41ca-965b-9fff6e37cfe3)
+
