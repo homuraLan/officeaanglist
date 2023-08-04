@@ -100,12 +100,11 @@ services:
       - redis
 
     volumes:
-      - /path/to/logs/officeaanglist/onlyoffice:/var/log/onlyoffice
-      - /path/to/logs/officeaanglist/nginx:/var/log/nginx
+      - /path/to/officeaanglist/logs:/var/log/onlyoffice
+      - /path/to/officeaanglist/logs/nginx:/var/log/nginx
       - /path/to/officeaanglist/aria2:/var/www/app/aria2
       - /path/to/AList:/AList
       - /path/to/officeaanglist/lib:/var/lib/onlyoffice
-      #- /path/to/officeaanglist/db:/var/lib/postgresql
       #- /path/to/ssl:/ssl
       
     networks:
