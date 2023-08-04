@@ -14,7 +14,7 @@ services:
       - /path/to/officeaanglist/db:/var/lib/mysql
     networks:
       - officeaanglist
-
+ 
   redis:
     image: redis
     container_name: officeaanglist-redis
