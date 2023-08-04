@@ -26,7 +26,7 @@ sudo docker restart officeaanglist
 AList: https://example.com/AList  
 AriaNg: https://example.com/AriaNg  
 aria2: https://example.com/aria2  
-Edier：https://example.com/viewer
+Edier：https://example.com/viewer  
 AriaNg配置：https://example.com/aria2/jsonrpc  秘钥：QQ943384135
 AList相同  
 AList账号，
