@@ -8,6 +8,9 @@
    AList  
    quart_auth   
 ## USE     
+   docker:  
+   [docker](https://github.com/Sincejunly/officeaanglist/blob/main/docker.md)  
+   docker-compose:  
    执行  
    ```
    touch /path/to/officeaanglist/redis/redis.conf
