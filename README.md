@@ -14,7 +14,11 @@
    ```
    touch /path/to/officeaanglist/redis/redis.conf
    sudo docker-compsoe up -d
-   ```   
+   ```
+   pdf扩展：  
+   ```
+   docker exec -it officeaanglist apt install -y ghostscript
+   ```
    启动后要等待很长时间，  
    ```   
    ds:docservice: stopped  
