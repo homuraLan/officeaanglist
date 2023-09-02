@@ -54,7 +54,7 @@ services:
       - "6881:6881/udp"
     volumes:
       - "/path/to/qbittorrent/config:/config"
-      - "/path/to/Download/qbittorrent:/downloads"
+      - "/path/to/downloads/qbittorrent:/downloads"
     networks:
       - officeaanglist
 
@@ -100,12 +100,14 @@ services:
       - redis
 
     volumes:
-      - /path/to/officeaanglist/logs/onlyoffice:/var/log/onlyoffice
-      - /path/to/officeaanglist/logs/nginx:/var/log/nginx
-      - /path/to/officeaanglist/conf.d:/etc/nginx/conf.d:rw
+      - /path/to/officeaanglist/logs:/var/log/onlyoffice
       - /path/to/officeaanglist/app:/var/www/app:rw
       - /path/to/AList:/AList
+      - /path/to/downloads/aria2:/downloads
       - /path/to/officeaanglist/lib:/var/lib/onlyoffice
+
+      #- /volume1/docker/onlyoffice/db:/var/lib/postgresql
+      - /path/to/officeaanglist/conf.d:/etc/nginx/conf.d
       #- /path/to/ssl:/ssl
       
     networks:
