@@ -54,7 +54,7 @@ services:
       - "6881:6881/udp"
     volumes:
       - "/path/to/qbittorrent/config:/config"
-      - "/path/to/downloads/qbittorrent:/downloads"
+      - "/path/to/downloads/qbittorrent:/downloads/qbittorrent"
     networks:
       - officeaanglist
 
