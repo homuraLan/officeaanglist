@@ -103,7 +103,7 @@ services:
       - /path/to/officeaanglist/logs:/var/log/onlyoffice
       - /path/to/officeaanglist/app:/var/www/app:rw
       - /path/to/AList:/AList
-      - /path/to/downloads/aria2:/downloads
+      - /path/to/downloads/aria2:/downloads/aria2
       - /path/to/officeaanglist/lib:/var/lib/onlyoffice
 
       #- /volume1/docker/onlyoffice/db:/var/lib/postgresql
