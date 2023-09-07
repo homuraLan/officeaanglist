@@ -8,7 +8,7 @@
    AList  
    quart_auth   
 ## USE     
-   [docker run](https://github.com/Sincejunly/officeaanglist/blob/main/docker.md)  
+   [docker cli](https://github.com/Sincejunly/officeaanglist/blob/main/docker.md)  
    docker-compose:  
    执行  
    ```
