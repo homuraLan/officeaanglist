@@ -19,6 +19,7 @@
    [docker cli](https://github.com/Sincejunly/officeaanglist/blob/github/docker.md)  
    pdf扩展：  
    ```
+   docker exec -it officeaanglist apt-get update
    docker exec -it officeaanglist apt install -y ghostscript
    ```
    pdf转换启动后等待完成会在同级目录下生成新的pdf文件。  
