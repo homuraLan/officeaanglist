@@ -8,13 +8,15 @@
    AList  
    quart_auth   
 ## USE     
-   [docker cli](https://github.com/Sincejunly/officeaanglist/blob/github/docker.md)  
    docker-compose:  
    执行  
    ```
+   git clone https://github.com/Sincejunly/officeaanglist.git
+   cd officeaanglist
    touch /path/to/officeaanglist/redis/redis.conf
    sudo docker-compsoe up -d
    ```
+   [docker cli](https://github.com/Sincejunly/officeaanglist/blob/github/docker.md)  
    pdf扩展：  
    ```
    docker exec -it officeaanglist apt install -y ghostscript
