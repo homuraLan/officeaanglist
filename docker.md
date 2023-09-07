@@ -23,7 +23,7 @@ sudo docker run --name qbittorrent-nox \
 --hostname qbittorrent-nox --env-file .env \
 -p 6901:6901/tcp -p 6881:6881/tcp -p 6881:6881/udp \
 -v "/path/to/qbittorrent/config:/config" \
--v "/path/to/Download/qbittorrent:/downloads" \
+-v "/path/to/downloads/qbittorrent:/downloads/qbittorrent" \
 --network officeaanglist qbittorrentofficial/qbittorrent-nox:latest
 
 #officeaanglist
