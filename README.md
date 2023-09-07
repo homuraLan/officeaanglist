@@ -16,7 +16,7 @@
    touch /path/to/officeaanglist/redis/redis.conf
    sudo docker-compsoe up -d
    ```
-   [docker cli](https://github.com/Sincejunly/officeaanglist/blob/github/docker.md)  
+   [docker-cli](https://github.com/Sincejunly/officeaanglist/blob/github/docker.md)  
    pdf扩展：  
    ```
    docker exec -it officeaanglist apt-get update
@@ -35,10 +35,10 @@
    出现以上内容代表成功
    删除映射目录app中的文件，以及数据库目录然后可以达到对容器重置的效果。
    然后访问，  
-   AList: https://example.com/AList  
-   AriaNg: https://example.com/AriaNg  
-   aria2: https://example.com/aria2  
-   Edier：https://example.com/viewer  
+   AList: https://example.com/AList/  
+   AriaNg: https://example.com/AriaNg/  
+   aria2: https://example.com/aria2/  
+   Edier：https://example.com/viewer/  
    AriaNg配置：https://example.com/aria2/jsonrpc  秘钥：QQ943384135
    AList相同  
    AList，Editer账号，通常情况下Editer会和AList同步  
