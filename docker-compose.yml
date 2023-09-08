@@ -61,7 +61,7 @@ services:
       - officeaanglist
 
   onlyoffice:
-    image: homuras/officeaanglist:v0.3
+    image: homuras/officeaanglist:v0.3.1
     #build: .
     container_name: officeaanglist
     restart: always
