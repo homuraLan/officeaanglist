@@ -8,15 +8,15 @@ sudo docker run -d --restart=always \
 --name officeaanglist-db --hostname db \  
 --env-file .env \  
 -v /path/to/officeaanglist/db:/var/lib/mysql \  
---network officeaanglist mariadb  
+--network officeaanglist mariadb/server:10.3  
 
 # redis  
 sudo docker run --name officeaanglist-redis \      
 --hostname redis --restart always \  
 -v /path/to/officeaanglist/redis/redis.conf:/etc/redis/redis.conf \    
 -v /path/to/officeaanglist/redis/data:/data \    
---network officeaanglist redis redis-server \   
-/etc/redis/redis.conf --appendonly yes --requirepass 115099    
+--network officeaanglist redis:7.2.1-alpine3.18 redis-server \   
+/etc/redis/redis.conf --appendonly yes --requirepass 115099
 
 # qbittorrent-nox  
 sudo docker run --name qbittorrent-nox \    
