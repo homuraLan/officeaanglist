@@ -49,7 +49,7 @@
    对于AList注册的用户，含有上传文件权限的用户可以访问Editer编辑功能，只启用的用户可以访问Editer但不能编辑  
    对于Editer注册的用户，自动注册AList未启用的账户，需要管理员手动开启用户  
    编写了外部alist逻辑，暂未测试  
-![image](https://github.com/Sincejunly/officeaanglist/assets/96775034/f5487832-fdcf-4fcd-a352-006c71dc8eee)
+![image](https://github.com/Sincejunly/officeaanglist/assets/96775034/c3967404-9047-48a9-ad7f-7ef28c1314e5)
 ![image](https://github.com/Sincejunly/officeaanglist/assets/96775034/57504316-98a9-4569-848a-ac76016e1272)  
 
 # TODO  
