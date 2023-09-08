@@ -11,7 +11,7 @@ sudo docker run -d --restart=always \
 --network officeaanglist mariadb/server:10.3  
 
 # redis  
-sudo docker run --name officeaanglist-redis \      
+sudo docker run -d --name officeaanglist-redis \      
 --hostname redis --restart always \  
 -v /path/to/officeaanglist/redis/redis.conf:/etc/redis/redis.conf \    
 -v /path/to/officeaanglist/redis/data:/data \    
@@ -19,7 +19,7 @@ sudo docker run --name officeaanglist-redis \
 /etc/redis/redis.conf --appendonly yes --requirepass 115099
 
 # qbittorrent-nox  
-sudo docker run --name qbittorrent-nox \    
+sudo docker run -d --name qbittorrent-nox \    
 --hostname qbittorrent-nox --env-file .env \    
 -p 6901:6901/tcp -p 6881:6881/tcp -p 6881:6881/udp \   
 -v "/path/to/qbittorrent/config:/config" \    
@@ -27,7 +27,7 @@ sudo docker run --name qbittorrent-nox \
 --network officeaanglist qbittorrentofficial/qbittorrent-nox:latest    
 
 #officeaanglist  
-sudo docker run --name officeaanglist --restart always \    
+sudo docker run -d --name officeaanglist --restart always \    
 --privileged --hostname officeaanglist --env-file .env \   
 -p 8088:80 -p 83:443 -v /path/to/officeaanglist/logs/onlyoffice:/var/log/onlyoffice \   
 -v /path/to/officeaanglist/logs/nginx:/var/log/nginx \ 
