@@ -1,7 +1,7 @@
 version: '3'
 services:
   db:
-    image: mariadb
+    image: mariadb/server:10.3
     restart: always
     container_name: officeaanglist-db
     environment:
@@ -16,7 +16,7 @@ services:
       - officeaanglist
  
   redis:
-    image: redis
+    image: redis:7.2.1-alpine3.18
     container_name: officeaanglist-redis
     restart: always
     command: redis-server /etc/redis/redis.conf --appendonly yes --requirepass 115099
